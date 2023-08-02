@@ -5,7 +5,6 @@ import requests, sys, os, random
 AssetsPath = f"{os.path.dirname(sys.argv[0])}/assets"
 
 NiggerBot = commands.Bot(command_prefix='!', intents=nextcord.Intents.all())
-Token = "".join([chr(ord(s)+3) for s in open(f"{AssetsPath}/token.txt", "r").read()])
 
 @NiggerBot.event
 async def on_ready():
