@@ -1,2 +1,1 @@
-# NigBot
-discord bot promoting racial inclusivity!
+discord bot primarily used for fetching images of black men
