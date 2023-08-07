@@ -44,9 +44,9 @@ class Image_Search(commands.Cog, name="Image Search"):
         queries = ["black homosexuals kissing", "black gay men kissing"]
         await GetImages(ctx, "gay niggas", queries, "images")
 
-    @commands.command(name="search", help="General image search")
-    async def search(self, ctx, query):
-        await GetImages(ctx, query, query)
+    # @commands.command(name="search", help="General image search")
+    # async def search(self, ctx, query):
+    #     await GetImages(ctx, query, query)
 
 
 # other
